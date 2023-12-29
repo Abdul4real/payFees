@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #4caf50; /* Example of a primary color */
+  --secondary-color: #ff9800; /* Example of a secondary color */
+  --text-color: #333333; /* Standard text color */
+  --background-color: #f5f5f5; /* Background color */
+  --Payfees-dodger-blue-Payfees-DB01: #218bfc; /* Example of a custom color */
+  --Payfees-Light-green-Payfees-LG01: #7dde92; /* Example of a custom color */
+  -payfees-dodger-blue-payfees-db05: #d3e8fe;
+  --payfees-dodger-bluepayfees-db08: #0d3865;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: "Oldschool Grotesk Trial";
+  src: url("../public/asset/font/oldschool-grotesk-font-1703701431-0/OldschoolGrotesk-NormalRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add additional @font-face rules for other font weights/styles if needed */
