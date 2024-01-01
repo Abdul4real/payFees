@@ -1,0 +1,47 @@
+.main {
+  padding: 4.3rem 9.5rem;
+  height: 939px;
+  flex-shrink: 0;
+  background: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  position: relative;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.imgContainer {
+  width: 44.85rem;
+  height: 57.62rem;
+  flex-shrink: 0;
+}
+.overlapWrapper {
+  height: 48.3rem;
+  position: relative;
+  width: 44.9rem;
+}
+.img2 {
+  height: 40.6rem;
+  left: 6.5rem;
+  position: absolute;
+  top: 8.7rem;
+  width: 38.3rem;
+}
+.maskGroup {
+  height: 40.7rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38.3rem;
+}
+.tp{
+  color: 'white';
+  font-size: 14;
+  font-Family: 'Oldschool Grotesk Trial';
+  font-Weight: '500';
+  word-Wrap: 'break-word';}
+  .rn {color: '#858585';
+     font-Size: 14; 
+     font-Family: 'Oldschool Grotesk Trial';
+      font-Weight: '350';
+      line-Height: 19.14;
+       word-Wrap: 'break-word'}

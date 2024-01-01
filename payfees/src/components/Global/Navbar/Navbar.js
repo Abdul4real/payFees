@@ -12,7 +12,7 @@ const Navbar = () => {
             <a href="/#">How it works</a>
             <a href="/#">Resources</a>
             <a href="/#">FAQ</a>
-            <a href="/#">Support</a>
+            <a href="/Contact">Support</a>
           </div>
           <button>Track payment</button>
         </div>

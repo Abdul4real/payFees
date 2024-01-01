@@ -1,4 +1,4 @@
-import TPayment from "../components/Landing Page/landingP";
+import TPayment from "../components/TPayments/TPayment";
 import { Fragment } from "react";
 const TrackPayment = () => {
   return (
