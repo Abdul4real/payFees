@@ -4,6 +4,7 @@ import About from "./pages/aboutUsPage";
 import Home from "./pages/landingPage";
 import TrackPayment from "./pages/TPayment";
 import Contact from "./pages/contactPage";
+import PaymentFormPage from "./components/Payment Form Landing Page/PaymentFormPage";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Track-Payments" element={<TrackPayment />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/track-payments" element={<TrackPayment />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/payment-form" element={<PaymentFormPage />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,202 @@
+.centerFrame {
+  display: flex;
+  width: 67rem;
+  height: 50.9rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.9rem;
+}
+.previewFrame {
+  width: 59.55rem;
+  height: 11.43rem;
+  border-radius: 1.33rem;
+  background: rgb(211, 232, 254, 0.2);
+  position: relative;
+}
+.innerPreviewFrame {
+  display: flex;
+  width: 55.3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.614rem;
+  position: absolute;
+  right: 2.775rem;
+  top: 2.19rem;
+}
+.previewTopFrame {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 13.67px */
+}
+.previewTopFrame div {
+  display: flex;
+  align-items: center;
+  gap: 5.167px;
+}
+.previewTopFrame div :first-child {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+.previewTopFrame div :last-child {
+  font-size: 1rem;
+}
+.previewTopFrame p {
+  font-size: 1.2rem;
+}
+.previewTopFrame p span {
+  color: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  text-decoration-line: underline;
+}
+.previewBottomFrame {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.previewBottomFrame div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.938px;
+}
+.previewBottomFrame div p {
+  color: #969696;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 16.404px */
+}
+.previewBottomFrame div h5 {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.previewBottomFrame div .menuAmountFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.menuAmountFrame h5 {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menuAmountFrame .menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 3px;
+  background: var(--Payfees-dodger-blue-Payfees-DB05, #d3e8fe);
+}
+.menuAmountFrame .menu :first-child {
+  width: 7.828px;
+  height: 7.828px;
+}
+
+.formFrame {
+  display: flex;
+  width: 59.6rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2.67rem;
+}
+.formFrame .innerFormFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2.1rem;
+  align-self: stretch;
+}
+.innerFormFrame div {
+  display: flex;
+  height: 5.4rem;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2.8rem;
+  border: 1px solid var(--Payfees-dodger-blue-Payfees-DB05, #d3e8fe);
+  background: #fff;
+}
+.innerFormFrame div input {
+  border: none;
+  width: 100% !important;
+}
+.innerFormFrame div input::placeholder {
+  color: #858585;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+}
+input:focus {
+  outline: none;
+}
+.innerFormFrame div :last-child {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.formFrame button {
+  display: flex;
+  height: 2.6rem;
+  padding: 0px 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 1.614rem;
+  border: 1.5px solid var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  background: none;
+}
+.formFrame button :first-child {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.formFrame button span {
+  color: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  text-align: center;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bottomFrame {
+  display: flex;
+  width: 67rem;
+  height: 9.2rem;
+  padding: 1.3rem 2.712rem;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.323px solid var(--Payfees-dodger-blue-Payfees-DB04, #a6d1fe);
+}
+.bottomFrame button {
+  background: none;
+  height: 5rem;
+  padding: 0px 2.4rem;
+  border-radius: 3.2rem;
+  cursor: pointer;
+}
+.bottomFrame button:first-child {
+  border: 1.5px solid var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+}
+.bottomFrame button:last-child {
+  border: none;
+  background: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  color: #fff;
+}

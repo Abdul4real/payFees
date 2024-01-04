@@ -1,0 +1,334 @@
+.payformSec {
+  max-width: 100vw;
+  height: 1102px;
+  position: relative;
+  display: flex;
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.navbarSec {
+  position: absolute;
+  top: 4.3rem;
+  left: 8.3rem;
+  right: 9.5rem;
+}
+.payformSec .titleFrame {
+  width: 60.8rem;
+  height: 110.2rem;
+  background: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  padding-top: 22.7rem;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-left: 8.3rem;
+}
+.titleBox h1 {
+  color: #fff;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114.7%; /* 64.232px */
+}
+.titleBox p {
+  width: 48.7rem;
+  height: 5.1rem;
+  color: #fff;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 24.606px */
+}
+
+.overlapWrapper {
+  margin-top: 6.6rem;
+  position: relative;
+  bottom: 0;
+  left: 2rem;
+  width: 61.415rem;
+  height: calc(67.5rem - 6rem);
+  flex-shrink: 0;
+}
+.img2 {
+  left: 10.8rem;
+  position: absolute;
+  bottom: 0;
+  width: 52.47rem;
+  height: calc(55.52rem - 6rem);
+}
+.maskGroup {
+  left: 2rem;
+  position: absolute;
+  top: 0;
+  width: 52.7rem;
+  height: 55.7rem;
+  flex-shrink: 0;
+}
+
+.formFrame {
+  margin-top: 20.6rem;
+  margin-left: 7rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.2rem;
+  width: 66.7rem;
+}
+.formFrame .backFrame {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.backFrame div {
+  display: flex;
+  height: 3.61rem;
+  padding: 9.043px 5.167px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.459px;
+  border-radius: 2.2rem;
+}
+.backFrame div :first-child {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+.backFrame div span {
+  color: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.backFrame p {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.7%; /* 19.138px */
+}
+.backFrame p span {
+  color: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  text-decoration-line: underline;
+}
+
+.formFrame form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.8rem;
+  width: 100%;
+}
+form .formCon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  align-self: stretch;
+}
+.formFrame form .previewBox {
+  padding: 2.4rem 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 1.2rem;
+  background: rgba(211, 232, 254, 0.2);
+}
+.previewBox .previewFrame {
+  width: 61.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+.previewFrame .nameBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.previewFrame .nameBox > div {
+  display: flex;
+  padding: 3px 9px;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 6px;
+  background: var(--Payfees-dodger-blue-Payfees-DB05, #d3e8fe);
+}
+.previewFrame .nameBox > div > span {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.7%; /* 19.138px */
+}
+.previewFrame .nameBox > p {
+  color: var(--Payfees-dodger-blue-Payfees-DB02, #4da2fd);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+}
+.previewFrame .rateFrame {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.rateFrame .singleRateFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.singleRateFrame p {
+  color: #969696;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+}
+.singleRateFrame h1 {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  align-self: stretch;
+}
+.formBox .input {
+  height: 5.4rem;
+  padding: 2rem;
+  align-self: stretch;
+  border-radius: 2.8rem;
+  border: 1px solid var(--Payfees-dodger-blue-Payfees-DB05, #d3e8fe);
+  background: #fff;
+}
+.phonebox {
+  border-radius: 2.8rem;
+  border: 1px solid var(--Payfees-dodger-blue-Payfees-DB05, #d3e8fe);
+  background: #fff;
+  display: flex;
+  height: 5.4rem;
+  padding: 2rem;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.selectBox {
+  display: flex;
+  padding: 6px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 2.1rem;
+  border: 1px solid var(--Payfees-dodger-blue-Payfees-DB04, #a6d1fe);
+}
+.selectBox span {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+}
+.selectBox :last-child {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.phonebox input {
+  width: 100%;
+  border: none;
+}
+.formBox input::placeholder {
+  color: #858585;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+}
+input:focus {
+  outline: none;
+}
+
+.actionAgreementFrame {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.actionAgreementFrame > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+input[type="checkbox"] {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  border-radius: 5px !important;
+  border: 1px solid var(--Payfees-dodger-blue-Payfees-DB04, #a6d1fe) !important;
+}
+.termFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.termFrame p {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.7%; /* 19.138px */
+}
+.termFrame p span {
+  color: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  text-decoration-line: underline;
+}
+.actionAgreementFrame > button {
+  border: none;
+  display: flex;
+  width: 17.5rem;
+  height: 5rem;
+  padding: 0px 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 3.2rem;
+  background: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  color: #fff;
+  text-align: center;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
