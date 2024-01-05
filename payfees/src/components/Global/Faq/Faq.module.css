@@ -1,0 +1,56 @@
+/*
+
+SECTION H
+
+*/
+.sectionH {
+  max-width: 100vw;
+  padding: 0 15rem 10.5rem 15rem;
+  background-color: #fff;
+}
+.sectionH .sectionH_Container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.6rem;
+  width: 100%;
+}
+.sectionH_Container h1 {
+  color: #000;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114.7%; /* 45.88px */
+}
+.sectionH_Container div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.sectionH_Container div div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 42px 28px;
+  gap: 10px;
+  border-top: 0.3px solid #d4d4d4;
+  border-bottom: 0.3px solid #d4d4d4;
+  background: #fdfdfd;
+}
+.sectionH_Container div div p {
+  color: #000;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.7%; /* 24.606px */
+}
+.sectionH_Container div div :last-child {
+  width: 24px;
+  height: 24px;
+}
