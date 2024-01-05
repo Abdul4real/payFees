@@ -22,9 +22,15 @@ const Navbar = (props) => {
         <div className={classes.navLinks}>
           <div className={`${props.payFormPg && classes.colored}`}>
             <Link to="#">About us</Link>
-            <Link to="/">How it works</Link>
-            <Link to="/">Resources</Link>
-            <Link to="/">FAQ</Link>
+            <a href="#secE"onClick={() => {
+              navigate("/");
+            }} >How it works</a>
+            <a href="#secC"onClick={() => {
+              navigate("/");
+            }} >Resources</a>
+            <a href="#secH" onClick={() => {
+              navigate("/");
+            }}>FAQ</a>
             <Link to="/contact">Support</Link>
           </div>
           <button

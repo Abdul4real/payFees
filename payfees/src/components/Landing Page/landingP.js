@@ -197,7 +197,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className={classes.sectionC}>
+      <section id="secC" className={classes.sectionC}>
         <div className={classes.sectionC_Container}>
           <div>
             <h1>Built by Africans for Africans</h1>
@@ -266,7 +266,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className={classes.sectionE}>
+      <section  id="secE" className={classes.sectionE}>
         <div className={classes.sectionE_Container}>
           <h1>Your educational journey in just a few clicks</h1>
           <div>
