@@ -1,0 +1,180 @@
+.main {
+    padding: 4.3rem ;
+    flex-shrink: 0;
+    background: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    width: 1493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Oldschool Grotesk Trial;
+}
+.frame6{
+    display: flex;
+width: 862px;
+height: 299px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+left: 289px;
+margin-top: 18rem; 
+}
+.frame41{
+display: flex;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.T1{
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114.7%; /* 41.292px */
+    width: 793px;
+height: 76px;
+}
+.T2{
+    width: 814px;
+    height: 134px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 136.7%; /* 24.606px */
+}
+
+.section2 {
+    padding: 4.3rem 5rem;
+    flex-shrink: 0;
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    width: 1493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--White, #FFF);
+    
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 10rem;  /* Adjust margin as needed */
+  }
+  
+  .St1 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    font-weight: bold;
+  }
+  
+  .St2 {
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .cont {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20rem;
+  }
+  
+  .ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Adjust max-width as needed */
+  }
+  
+  .ct1, .ct2, .ct3 {
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+  
+  .ct1 {
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  .ct2 {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #666; /* Adjust color as needed */
+  }
+  
+  .ct3 {
+    font-size: 14px; /* Adjust font size as needed */
+    color: #333; /* Adjust color as needed */
+    text-decoration: none; /* For email and website links */
+  }
+  .cont2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px; /* Adjust padding as needed */
+  }
+  
+  .psy1,
+  .as {
+    width: 50%; /* Adjust width as needed for a 2-column layout */
+  }
+  
+  .as {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin-bottom: 30px;  /*Adjust margin as needed */
+  }
+  
+  .gi {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #2c3e50; /* Adjust color as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .que,
+  .ft {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #34495e; /* Adjust color as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .links {
+    color: #3498db; /* Adjust button color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px; /* Adjust border-radius as needed */
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+ 
+  
+  .ts {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #2c3e50; /* Adjust color as needed */
+    font-weight: bold;
+    margin-top: 40px; /* Adjust margin as needed */
+  }
+  .cont3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .conPic{
+    width: 912px;
+    height: 553px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: lightgray 50% / cover no-repeat;
+  }
