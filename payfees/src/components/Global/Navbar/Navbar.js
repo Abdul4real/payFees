@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = (props) => {
   const navigate = useNavigate();
+  
   return (
     <nav className={`${classes.nav} ${props.payFormPg && classes.removeBg}`}>
       <div>

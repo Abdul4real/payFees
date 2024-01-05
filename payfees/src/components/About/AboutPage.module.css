@@ -1,0 +1,176 @@
+
+/* Base styles for the layout */
+.section1 {
+    padding: 20px; /* Example color */
+  }
+  
+  .frame41 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 15px;
+  }
+  
+  .section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 20px;
+  }
+  
+  .img, .img2 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+
+  }
+  
+  .conPic {
+    width: calc(50% - 10px); /* Adjust width as required, minus margin */
+    margin-right: 20px;
+    border-radius: 5px; /* Optional, for rounded corners */
+    width: 383px;
+    height: 303px;
+    flex-shrink: 0;
+  }
+  
+  .conPic:last-child {
+    margin-right: 0;
+  }
+  
+  /* Assuming you have a container for this layout */
+  .container {
+    max-width: 1200px; /* Example max width */
+    margin: auto;
+    overflow: hidden;
+  }
+  .part2 {
+    padding: 4.3rem 5rem;
+    flex-shrink: 0;
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    width: 1493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--White, #FFF);
+    
+  }
+  .main {
+    padding: 4.3rem ;
+    flex-shrink: 0;
+    background: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    width: 1493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Oldschool Grotesk Trial;
+}
+.fr{
+    display: flex;
+width: 1140px;
+padding: 48px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.fr2{
+    display: flex;
+width: 968px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 21px;
+width: 894px;
+height: 144px;
+color: var(--Payfees-dodger-blue-Payfees-DB09, #071C32);
+text-align: center;
+font-family: Oldschool Grotesk Trial;
+font-size: 18px;
+font-style: normal;
+font-weight: 350;
+line-height: 136.7%; /* 24.606px */
+}
+.fr3{
+    color: var(--Payfees-dodger-blue-Payfees-DB09, #071C32);
+text-align: center;
+font-family: Oldschool Grotesk Trial;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 114.7%; /* 45.88px */
+color: var(--Payfees-Light-green-Payfees-LG01, #7DDE92);
+font-family: Oldschool Grotesk Trial;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 114.7%;
+}
+.third{
+display: inline-flex;
+align-items: center;
+gap: 70px;
+padding-bottom: 30px;
+}
+.tr{
+    display: flex;
+width: 544px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+.ov{
+    color: var(--Payfees-Light-green-Payfees-LG06, #64B275);
+font-family: Oldschool Grotesk Trial;
+font-size: 20px;
+font-style: normal;
+font-weight: 350;
+line-height: 114.7%; /* 22.94px */
+}
+.ge{
+    width: 560px;
+height: 135px;
+color: var(--Payfees-dodger-blue-Payfees-DB09, #071C32);
+font-family: Oldschool Grotesk Trial;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 114.7%; /* 45.88px */
+}
+.rg{
+    color: var(--Payfees-dodger-blue-Payfees-DB09, #071C32);
+font-family: Oldschool Grotesk Trial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 136.7%; /* 24.606px */
+width: 553px;
+height: 53px;
+}
+.im{
+    width: 600px;
+height: 444px;
+flex-shrink: 0;
+padding-top: 50px;
+}
+.cont3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .cp{
+    width: 912px;
+    height: 553px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: lightgray 50% / cover no-repeat;
+  }
