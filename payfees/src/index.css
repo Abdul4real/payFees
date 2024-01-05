@@ -34,5 +34,11 @@ code {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../public/asset/font/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Add additional @font-face rules for other font weights/styles if needed */

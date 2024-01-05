@@ -1,0 +1,88 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 1.2rem;
+  background: #fff;
+  animation: slideUpFromDown 0.5s ease-in-out;
+}
+.openModal {
+  display: flex;
+}
+
+.closeModal {
+  animation: removeModal 0.5s ease-in-out;
+  display: none;
+}
+.slideup {
+  animation: slideUpFromDown 0.5s ease-in-out;
+}
+.slideDown {
+  animation: slideDownFromUp 0.5s ease-in-out;
+}
+@keyframes removeModal {
+  0% {
+    display: flex;
+  }
+  100% {
+    display: none;
+  }
+}
+@keyframes slideUpFromDown {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideDownFromUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+.frame .topFrame {
+  display: flex;
+  width: 67rem;
+  height: 7.4rem;
+  padding: 2rem 1.167rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20.66rem;
+  border-bottom: 0.323px solid var(--Payfees-dodger-blue-Payfees-DB04, #a6d1fe);
+}
+.topInnerFrame {
+  display: flex;
+  padding-left: 27.9rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}
+.topInnerFrame p {
+  color: var(--Payfees-dodger-blue-Payfees-DB09, #071c32);
+  font-family: Oldschool Grotesk Trial;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.topInnerFrame :last-child {
+  width: 2.712rem;
+  height: 2.712rem;
+  cursor: pointer;
+}

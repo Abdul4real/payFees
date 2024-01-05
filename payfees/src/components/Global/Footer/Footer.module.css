@@ -1,0 +1,146 @@
+/*
+
+Footer
+
+*/
+footer {
+  height: 48.7rem;
+  max-width: 100vw;
+  padding: 10.2rem 15rem 7.4rem 15.1rem;
+  background-image: url("../../../svgs/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footerContainer {
+  display: flex;
+  width: 100%;
+  height: 311px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+  flex-shrink: 0;
+}
+.socialBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialBox > div:first-child {
+  width: 125.625px;
+  height: 27px;
+}
+
+.socialIconBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4.667px;
+}
+.socialIconBox > * {
+  width: 17.5px;
+  height: 17.5px;
+}
+.contentsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 57px;
+  align-self: stretch;
+}
+.contentsBox .frameBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 335px;
+  align-self: stretch;
+}
+.contentsBox .frameBox .searchboxFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.contentsBox .frameBox .searchboxFrame p {
+  color: #fff;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 114.7%; /* 20.646px */
+  width: 568px;
+}
+.contentsBox .frameBox .searchboxFrame .searchbox {
+  display: flex;
+  align-items: flex-end;
+  gap: 11px;
+}
+.contentsBox .frameBox .searchboxFrame .searchbox input {
+  display: flex;
+  width: 488px;
+  height: 69px;
+  padding: 23px 28px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 39px;
+  background: #efefef;
+  color: #858585;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 136.7%; /* 19.138px */
+  border: none;
+}
+.contentsBox .frameBox .searchboxFrame .searchbox button {
+  display: flex;
+  height: 69px;
+  padding: 14px 33px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 34.211px;
+  background: var(--Payfees-dodger-blue-Payfees-DB01, #218bfc);
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.frameBox .contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+.frameBox .contents p {
+  color: #fff;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.7%; /* 19.138px */
+}
+.contentBoxFrame {
+  width: 740px;
+}
+.contentBoxFrame p {
+  color: #fff;
+  font-family: Oldschool Grotesk Trial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 136.7%; /* 19.138px */
+}
+.contentBoxFrame p:last-child {
+  margin-top: 1.4rem;
+}
