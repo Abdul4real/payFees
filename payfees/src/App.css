@@ -36,23 +36,20 @@
     transform: rotate(360deg);
   }
 }
-/* app.css */
-
-body {
-  font-size: 16px;
-  /* Other global styles */
+/* iPhones */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px)
+  and (-webkit-device-pixel-ratio: 2) {
+    /* Styles for iPhones */
 }
 
-@media screen and (min-width: 769px) {
-  body {
-      font-size: 18px;
-      /* Additional desktop styles */
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-      font-size: 14px;
-      /* Additional mobile styles */
-  }
+/* iPads */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    /* Styles for iPads */
 }
