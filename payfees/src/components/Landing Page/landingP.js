@@ -31,26 +31,26 @@ import Modal from "../Modals/Modal";
 
 const sectionContent = [
   {
-    title: "I’m a ",
+    title: "I'm a ",
     description1: "We understand the challenges you face when it comes to processing international fees and securing your place in your dream university.",
     description2:
-      "That’s why we built Payfees, so you can say goodbye to the stress and uncertainty of traditional banking systems. Because we believe nothing should be in control of your educational journey, besides you.",
+      "That's why we built Payfees, so you can say goodbye to the stress and uncertainty of traditional banking systems. Because we believe nothing should be in control of your educational journey, besides you.",
     header: "student",
     image: SecCPic1,
   },
   {
-    title: "I’m a ",
+    title: "I'm a ",
     description1: "We know that the financial aspects of sending your child abroad can be overwhelming and worrisome.",
     description2:
-      "We’ve recognized your concerns, and that is why we built Payfees to help alleviate these concerns. Make international fee payments from anywhere and within minutes — no delays, no hidden fees, and no stress.",
+      "We've recognized your concerns, and that is why we built Payfees to help alleviate these concerns. Make international fee payments from anywhere and within minutes — no delays, no hidden fees, and no stress.",
     header: "parent/guardian",
     image: SecCPic2,
   },
   {
-    title: "I’m a ",
-    description1: "You don’t have to navigate the complexities of processing international fee payments alone.",
+    title: "I'm a ",
+    description1: "You dont have to navigate the complexities of processing international fee payments alone.",
     description2:
-      "At Payfees, we understand the needs of education service providers like you, that’s why we built a solution that simplifies your processes, reduces workload, and provides your students with a simple and secure payment experience.",
+      "At Payfees, we understand the needs of education service providers like you, that's why we built a solution that simplifies your processes, reduces workload, and provides your students with a simple and secure payment experience.",
     header: "service provider",
     image: SecCPic3,
   },
@@ -60,6 +60,18 @@ const LandingPage = () => {
   const [secCActive, setSecCActive] = useState(1);
   const intervalRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleItemClick = (item) => {
+    // Handle item click logic
+    console.log(`Clicked on ${item}`);
+    // Close the dropdown after item click if needed
+    setIsOpen(false)};
 
   // Function to cycle through sections
   const cycleSections = () => {
@@ -124,7 +136,13 @@ const LandingPage = () => {
                   }}>
                   Start payment
                 </button>
-                <button>Look for your school here</button>
+                {/* <button>Look for your school here</button> */}
+                    <button onClick={toggleDropdown}>Look for your school here</button>
+                    {isOpen && (
+                      <ul className="dropdown-menu">
+                        <li onClick={() => handleItemClick('Item 1')}>Centennial College</li>
+                      </ul>
+                    )}
               </div>
             </div>
           </div>
