@@ -21,7 +21,7 @@ const Navbar = (props) => {
 
         <div className={classes.navLinks}>
           <div className={`${props.payFormPg && classes.colored}`}>
-            <Link to="/about">About us</Link>
+            <Link to="#">About us</Link>
             <Link to="/">How it works</Link>
             <Link to="/">Resources</Link>
             <Link to="/">FAQ</Link>

@@ -2,6 +2,9 @@
 /* Base styles for the layout */
 .section1 {
     padding: 20px; /* Example color */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
   }
   
   .frame41 {
