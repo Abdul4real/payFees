@@ -22,13 +22,13 @@ const Navbar = (props) => {
         <div className={classes.navLinks}>
           <div className={`${props.payFormPg && classes.colored}`}>
             <Link to="#">About us</Link>
-            <a href="#secE"onClick={() => {
+            <a href="#How-it-works"onClick={() => {
               navigate("/");
             }} >How it works</a>
-            <a href="#secC"onClick={() => {
+            <a href="#Resources"onClick={() => {
               navigate("/");
             }} >Resources</a>
-            <a href="#secH" onClick={() => {
+            <a href="#FAQ" onClick={() => {
               navigate("/");
             }}>FAQ</a>
             <Link to="/contact">Support</Link>

@@ -15,7 +15,7 @@ const faqArr = [
 
 const Faq = () => {
   return (
-    <section  id= "secH" className={classes.sectionH}>
+    <section  id= "FAQ" className={classes.sectionH}>
       <div className={classes.sectionH_Container}>
         <h1>Some frequently asked questions</h1>
         <div>
